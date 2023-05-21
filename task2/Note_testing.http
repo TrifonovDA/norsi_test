@@ -1,0 +1,15 @@
+POST http://localhost:8080/notes HTTP/1.1
+Accept: application/json
+
+{"id": 3, "title": "Hello"}
+
+###
+DELETE http://localhost:8080/notes HTTP/1.1
+Accept: application/json
+
+{"id": 3}
+
+###
+
+GET http://localhost:8080/notes HTTP/1.1
+Accept: application/json
